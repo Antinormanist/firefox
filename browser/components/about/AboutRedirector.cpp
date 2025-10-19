@@ -220,7 +220,7 @@ AboutRedirector::NewChannel(nsIURI* aURI, nsILoadInfo* aLoadInfo,
 
       // If tempURI links to an external URI (i.e. something other than
       // chrome:// or resource://) then set the result principal URI on the
-      // load info which forces the channel prncipal to reflect the displayed
+      // load info which forces the channel principal to reflect the displayed
       // URL rather then being the systemPrincipal.
       bool isUIResource = false;
       rv = NS_URIChainHasFlags(tempURI, nsIProtocolHandler::URI_IS_UI_RESOURCE,

@@ -147,7 +147,7 @@ ScrollTimeline::ScrollOffsets ViewTimeline::ComputeInsets(
                            (mAxis == StyleScrollAxis::X && wm.IsVertical()) ||
                            (mAxis == StyleScrollAxis::Y && !wm.IsVertical());
 
-  // The percentages of view-timelne-inset is relative to the corresponding
+  // The percentages of view-timeline-inset is relative to the corresponding
   // dimension of the relevant scrollport.
   // https://drafts.csswg.org/scroll-animations-1/#view-timeline-inset
   const nsRect scrollPort = aScrollContainerFrame->GetScrollPortRect();
